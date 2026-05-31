@@ -1,0 +1,12 @@
+{
+  "name": "phloWS",
+  "version": ".9.9.1",
+  "description": "Phlo WebSocket server",
+  "main": "phloWS.js",
+  "keywords": [],
+  "author": "q-ai.nl",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
