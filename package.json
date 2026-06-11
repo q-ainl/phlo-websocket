@@ -1,12 +1,21 @@
 {
-  "name": "phloWS",
-  "version": ".9.9.1",
+  "name": "phlows",
+  "version": "1.0.0-rc.1",
   "description": "Phlo WebSocket server",
   "main": "phloWS.js",
-  "keywords": [],
+  "keywords": [
+    "phlo",
+    "websocket",
+    "realtime",
+    "multi-host"
+  ],
   "author": "q-ai.nl",
   "license": "ISC",
   "dependencies": {
     "ws": "^8.18.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/q-ainl/phlo-websocket.git"
   }
 }
