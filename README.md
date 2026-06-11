@@ -49,4 +49,4 @@ Responses: `200 {"status":"ok","host":...,"sent":N}` where `sent` is the number 
 
 ## WebSocket callbacks
 
-Connection events call back into the app via one-shot PHP CLI: `<app.php> websocket::<method>`. Implement the `websocket` node in the app to handle `auth`, `connect`, `receive` and `close`.
+Connection events call back into the app via one-shot PHP CLI: `<app.php> websocket::<method>`. The engine's `websocket` resource maps those calls onto plain app functions: implement `wsAuth`, `wsConnect`, `wsReceive` and `wsClose` to handle the events (each is optional; a missing function is a no-op).
