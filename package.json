@@ -10,7 +10,7 @@
     "multi-host"
   ],
   "author": "q-ai.nl",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "ws": "^8.18.3"
   },
