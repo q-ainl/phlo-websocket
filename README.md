@@ -2,6 +2,8 @@
 
 Multi-host WebSocket server for the [Phlo](https://phlo.tech) framework. Handles `/websocket` upgrades and `/message` casts on one port, routing by `Host` header. Per event it spawns a one-shot PHP CLI call (`<app.php> websocket::<method>`).
 
+phloWS is the realtime half of the Phlo server layer; one process serves every app on the machine. App-side usage (hooks, `wsCast()`, the client) is covered in the [WebSocket chapter of the guide](https://phlo.tech/guide/websocket).
+
 ## Usage
 ```js
 require('./phloWS.js')(3001, '/usr/bin/php-zts', {
